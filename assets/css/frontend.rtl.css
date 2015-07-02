@@ -1,0 +1,71 @@
+/**
+ | RTL : Frontend Style
+ | @since 1.0
+ |
+ | Table of Content :
+ |   1 General
+ |   2 Main Links
+ |   3 Dropdowns
+ |   4 Mega Posts
+ |   5 Search Form
+ |   6 Responsive
+ |	
+**/
+
+
+/** 1 General
+----------------------------------*/
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/** 2 Main Links
+----------------------------------*/
+.livemenu-rtl .lm-item,
+.livemenu-rtl .lm-sub-item{
+	text-align: right;
+}
+.livemenu-rtl .lm-item > a,
+.livemenu-rtl .lm-sub-item > a  {
+	text-align: right !important;
+}
+
+	.livemenu-rtl .lm-item > a .era-icon .lm-item-title,
+	.livemenu-rtl .lm-sub-item > a .era-icon .lm-item-title,
+	.livemenu-rtl .lm-item > a .era-icon:after,
+	.livemenu-rtl .lm-item > a .era-icon:before,
+	.livemenu-rtl .lm-sub-item > a .era-icon:after,
+	.livemenu-rtl .lm-sub-item > a .era-icon:before{
+		float: right;
+	}
+
+	.livemenu-rtl .lm-item-dropdowns >.lm-sub .lm-sub-item a .era-icon:after{ float: left; }
+
+	.livemenu-rtl .lm-item > a .era-icon .lm-item-title img,
+	.livemenu-rtl .lm-sub-item > a .era-icon .lm-item-title img {
+	    float: right;
+        margin: 0 0 0 10px;
+	}
+
+/** 3 Posts
+----------------------------------*/
+.livemenu-rtl .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a{ float:right; }
+
+/** 3 Search Widget
+----------------------------------*/
+.livemenu-rtl .livemenu-searchform .livemenu-searchsubmit{ 
+	right: auto;
+	left: 0;
+}
+
+/** 3 Responsive
+----------------------------------*/
+.livemenu-rtl.livemenu-responsive .livemenu-responsive-controls .era-icon{ float: left; }
+
+.livemenu-rtl.livemenu-responsive .lm-item > a .lm-responsive-links-arrow,
+.livemenu-rtl.livemenu-responsive .lm-item-dropdowns .lm-sub-item > a .lm-responsive-links-arrow,
+.livemenu-rtl.livemenu-responsive .lm-item-posts .lm-sub-item > a .lm-responsive-links-arrow{ 
+	float:left;
+}

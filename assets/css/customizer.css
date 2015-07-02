@@ -1,0 +1,485 @@
+/**
+* Livemenu Customizer Style
+*
+* @author    Sabri Taieb ( codezag )
+* @copyright Copyright (c) Sabri Taieb
+* @link    http://vamospace.com
+* @since   Version 1.0.0
+*
+**/
+
+/* = Top Admin Bar
+----------------------------------*/
+#wp-admin-bar-lm-top-bar-link{
+   background-color: #b200a0 !important;
+}
+
+
+/* = Controls
+----------------------------------*/
+.lm-controls{
+   left: auto;
+   right: 0;
+   top: 0;
+   bottom: auto;
+   position: fixed;
+   display: none;
+   width: 100%;
+   height: 50px;
+   overflow: hidden;
+   background: #313131;
+   border-top:1px solid #555555;
+   border-bottom:1px solid #555555;
+
+   z-index: 9999999999 !important;
+}
+   .lm-controls a,
+   .lm-controls > span{
+      width: auto !important;
+      height: auto !important;
+      display: inline-block !important;
+      white-space: nowrap !important;
+      padding: 0px 12px !important;
+      margin: 0;
+      cursor: pointer !important;
+      font-family: Arial, Verdana, sans-serif;
+      font-size: 14px !important;
+      line-height: 50px !important;
+
+      color: #eeeeee;
+      border:none;
+      border-right: 1px solid #555555;
+   }
+   .lm-controls a:hover,
+   .lm-controls > span{
+      color: #f5f5f5;
+   }
+
+   .lm-controls > span.lm-arrow-down:after,
+   .lm-controls > span.lm-arrow-up:after{
+      display: inline-block !important;
+   }
+
+   .lm-open-menu-controls{
+      z-index: 99999999;
+      position: absolute;
+      bottom: -32px;
+      float: left;
+      margin-top: 2px;
+      display: inline-block !important;
+      cursor: pointer;
+   }
+   .lm-open-menu-controls:before{
+      padding: 1px;
+      line-height: 24px !important;
+      text-align: center;
+      font-size: 18px;
+      height: 24px;
+      width: 24px;
+      overflow: hidden;
+      display: inline-block;
+      background-color: #313131 !important;
+      color: #fafafa !important;
+      border:1px solid #717171;
+
+      border-radius: 2000px;
+   }
+
+
+
+/* = Box Header
+----------------------------------*/
+.lm-box-page-select-wrap{
+   width: 93%;
+   margin: 0 auto 15px;
+}
+
+/* buttons */
+.lm-btn{
+   margin-top: 15px;
+   float: right;
+   line-height: 1em; 
+   font-size: 13px;
+   padding: 7px 11px;
+   cursor: pointer;
+   border:1px solid transparent;
+
+   -wekit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+}
+   .lm-btn img{ margin: 0 5px; }
+
+.lm-btn-green{
+   background: #8DC26A;
+   border-color: #65A441;
+   color: #ffffff;
+}
+.lm-btn-green:hover{ background: #65A441; }
+
+.lm-btn-red{
+   background: #CE4D39;
+   border-color: #bf3f2b;
+   color: #ffffff;      
+}
+.lm-btn-red:hover{ background: #bf3f2b; }
+
+.lm-btn-blue{
+   color: #ffffff;
+   border-color: #2599c6;
+   background-color: #2599c6;
+}
+.lm-btn-blue:hover{ background-color: #1d8eb7; }
+
+.lm-btn-rose { background: #d6088e; }
+.lm-btn-rose:hover { background: #d7098e; }
+
+
+.lm-btn-drag{ cursor: move; }
+
+.lm-btn-preview-skin{
+   cursor: pointer;
+   margin-top: 8px;
+}
+.lm-btn-reset-items-style{
+   background-color: #e51212;
+   color: #ffffff
+}
+.lm-btn-reset-items-style:hover{
+   background-color: #f20909;
+}
+
+.lm-btn-save img{ 
+   display: none; 
+   margin: 0 5px;
+}
+
+.lm-live-add-btn{
+   float: left;
+   margin:0 8px 10px;
+}
+
+
+/* = Box Content
+----------------------------------*/
+.lm-box-content{
+   color: #414141;
+   overflow-x: auto;
+}
+   .lm-op-wrap{
+      overflow: hidden;
+      padding: 15px;
+   }
+   .lm-op-wrap.border-bottom{
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 1px dashed #cccccc;
+   }
+   .lm-op-wrap .era-op-title{
+      font-style: 15px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+   }
+   .lm-op-wrap .era-op-desc{
+      font-size: 13px;
+      display: block;
+      margin-bottom: 12px;
+   }
+   .lm-op-wrap-small-options{
+      overflow: hidden;
+   }
+
+   .lm-op-wrap-small-options > .era-op-wrap > .era-op,
+   .lm-op-wrap-small-options > .era-op-wrap .era-op-wrap {
+      width: 80px;
+      margin-right: 3px;
+      float: left;
+   }
+   .sp-replacer{
+      float: left;
+      margin-right: 3px;
+   }
+   .era-op-upload img {
+      max-width: 80px;
+      max-height: 80px;
+   }
+
+
+/* = Pages 
+---------------------------------*/
+.lm-box-content-page{
+   display: none;
+}
+.lm-box-content-page:first-child{
+   display: block;
+}
+.hiddenOptions option{
+   display: none;
+}
+.no_visible {
+   visibility: hidden;
+}
+
+
+/* =All Items
+--------------------------*/
+.lm-submenu-active > .lm-sub{
+   display: block !important;
+}
+
+
+/* =Mega Posts
+--------------------------*/
+.livemenu-horizontal .lm-item-posts > .lm-sub > li:first-of-type{
+   display: inline-block !important;
+}
+
+
+
+/* = Box : Add Item 
+--------------------------*/
+.lm-live-items-box{
+   display: block;
+   padding: 15px 15px 0;
+   margin: 0;
+}
+.lm-live-items-box > h3{
+   background-color: #f5f5f5;
+   border: 1px solid #cccccc;
+   padding: 10px;
+   cursor: pointer;
+}
+   .lm-live-items-box > h3 .era-icon{ float: right; }
+
+.lm-live-items-box > div{
+   display: none;
+   overflow:hidden;
+   height: auto;
+   border-bottom: 1px solid #cccccc;
+   border-left: 1px solid #cccccc;
+   border-right: 1px solid #cccccc;
+
+   padding: 4px 0;
+}
+   .lm-live-items-box > div select{
+      width: 95.99%;
+      margin: 10px 2%; 
+      line-height: 32px;
+      height: 32px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+   }
+   .lm-live-items-box > div p span{
+      display: block;
+      font-size: 14px;
+      margin: 10px 2% 0;
+   }
+   .lm-live-items-box > div p input{
+      width: 93.99%;
+      margin: 10px 2%;
+      padding: 0 1%; 
+      line-height: 32px;
+      height: 32px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+   }
+
+.lm-live-menu-item-title input{
+   float: none;  
+}
+
+
+/* = Box : Edit Item
+--------------------------*/
+
+/* Admin nav-menus.php : Plus Button */
+.lm-open-item-box{
+   cursor: pointer;
+   float: left;
+   margin: 0 5px;
+   font-size: 18px !important;
+   color: #313131;
+}
+
+.lm-box-edit-item{}
+
+/* Navigation */
+.lm-item-box-nav {
+   float: left;
+   background: #313131;
+   height: auto;
+   width: 25%;
+   margin: 0;
+   margin-top: 10px;
+   padding: 0;
+}
+   .lm-item-box-nav li{
+      margin: 0;
+      font-size: 15px;
+      display: none;
+      padding: 10px;
+      border-bottom: 1px solid #555555;
+      color: #eeeeee;
+   }
+   .lm-item-box-nav li:hover,
+   .lm-item-box-nav li.current{
+      display: block;
+      cursor: pointer;
+      background: #212121;
+      color: #ffffff;
+   }
+
+   .lm-item-box-nav li.lm-item-box-nav-general{
+      display: block !important;
+   }
+   
+   /** Depth 0 **/
+   .lm-box-item-depth-0 ul li.lm-item-box-nav-submenu{
+      display: block !important;
+   }
+
+   /** Depth 1 **/
+   /* display column nav only for mega submenus */
+   .lm-box-item-depth-1.lm-box-item-type-mega .lm-item-box-nav-column{
+      display: block !important;
+   }
+
+   /** display nav item by column type **/
+   .lm-box-item-depth-1.lm-box-item-column-column_shortcodes .lm-item-box-nav-column_shortcodes,
+   .lm-box-item-depth-1.lm-box-item-column-column_widgets .lm-item-box-nav-column_widgets{
+      display: block !important;
+   }
+
+/* pages */
+.lm-item-box-page{
+   float: left;
+   width: 72%;
+   margin: 0 1.5%;
+   margin-top: 10px;
+   display: none;
+}
+.lm-item-box-page-general{
+   display: block;
+}
+
+   /** Depth 0 **/
+   .lm-box-item-depth-0.lm-box-item-type-posts .lm-item-op-content-submenu-size,
+   .lm-box-item-depth-0.lm-box-item-type-dropdowns .lm-item-op-content-submenu-size,
+   .lm-box-item-depth-0.lm-box-item-type-cart .lm-item-op-content-submenu-size{
+      display: none !important;
+   }
+   .lm-box-item-depth-0.lm-box-item-type-posts .lm-item-op-content-submenu-widht-and-position{
+      display: none !important;
+   }
+   .lm-box-item-depth-0.lm-box-item-type-dropdowns .lm-item-op-content-submenu-megaposts,
+   .lm-box-item-depth-0.lm-box-item-type-cart .lm-item-op-content-submenu-megaposts,
+   .lm-box-item-depth-0.lm-box-item-type-mega .lm-item-op-content-submenu-megaposts{
+      display: none !important;
+   }
+   
+   /** Depth 1 **/
+   .lm-box-item-depth-1 .lm-item-op-content-item-position{
+      display: none !important;
+   }
+
+   /** Depth 2 **/
+   /** after depth 2 all depth are called depth 2 */
+   .lm-box-item-depth-2 .lm-item-op-content-item-position{
+      display: none !important;
+   }
+
+
+/** Inputs/textarea/Enable **/
+.lm-btn-open-icons-box,
+.lm-btn-remove-icon{ float: left; }
+
+.lm-box-edit-item .lm-item-op-content{
+   padding: 10px;
+   background: #fafafa;
+   border:1px dashed #e1e1e1;
+   margin-bottom: 10px;
+}
+   .lm-box-edit-item .lm-op-wrap {
+      padding: 10px 0;
+   }
+      .lm-box-edit-item .lm-op-wrap > header {
+         padding-bottom: 10px;
+      }
+      .lm-box-edit-item .lm-op-wrap .era-op-title{
+         font-size: 15px;
+         font-weight: bold;
+         display: block;
+      }
+      .lm-box-edit-item .lm-op-wrap .era-op-desc{
+         font-size: 13px;
+         display: block;
+         margin: 0px 0 4px 0;
+      }
+
+.lm-box-edit-item #lm_op_html_shortcodes_content {
+   width: 99%;
+   height: 150px;
+   margin-top: 10px;
+}
+
+.lm-box-edit-item .era-op-imgselect label{
+   display: inline-block;
+   width: 225px;
+   float: left;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+   .lm-box-edit-item .era-op-imgselect label img{
+      width: 100%;
+   }
+
+.lm-box-edit-item #lm-icon-placeholder{
+   display: inline-block;
+   padding: 4px 15px;
+   font-size: 18px;
+}
+
+
+
+/* Box : Icons */
+.lm-box-icons{
+   display: none;
+   z-index: 99999999;
+}
+.lm-box-icons-container{
+   width: 100%;
+   display: block;
+   height: 76.5%;
+   overflow-x: scroll;
+}
+.lm-box-icons-icon {
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   font-size: 18px;
+   float: left;
+   display: inline-block;
+}
+.lm-box-icons-icon:hover,
+.lm-box-icons-icon.active {
+   background: orange;
+   color: white;
+}
+
+/* = Box WP Editor */
+.lm-box-wpeditor{ display: none; }
+
+/* = Box : Ajaxx Loading */
+.lm-box-ajaxloading{ display: none; }
+
+/* Hide/Show Options By Submenu Type */
+.lm-item-box[data-item_type="search_form"] .lm-item-op-content-fontIcon,
+.lm-item-box[data-item_type="cart"] .lm-item-op-content-fontIcon{
+   display: none !important;
+}
+.lm-item-box[data-item_type="social_media"] .lm-item-op-content-fontIcon .lm_op_icon_only_container{
+   display: none !important;
+}

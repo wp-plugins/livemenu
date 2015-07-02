@@ -1,0 +1,50 @@
+/* =General
+-------------------------------------------------------*/
+.hidden{
+   display: none;
+}
+
+.lm-btn-disable img,
+.lm-btn-enable img{
+   margin: 0 8px;
+   display: none;
+}
+
+/* Open Item Box */
+.lm-open-item-box{
+   cursor: pointer;
+   float: left;
+   margin: 0 5px;
+   font-size: 18px !important;
+   color: #313131;
+}
+
+/* Panel
+-------------------------*/
+.lm-import-section button{
+   margin-top: 10px !important;
+}
+#lm-btn-export-config,
+#lm-btn-import-config,
+#lm-btn-import-menus,
+#lm-panel-save-menus-count,
+#lm-panel-save-custom-css,
+#lm-panel-enable-demo{
+   text-align: center;
+   padding: 7px;
+   background: #0999a0;
+   color: #ffffff;
+   border:1px solid #007577;
+   margin-bottom: 10px;
+   width: 250px; 
+   font-size: 15px;
+}
+   #lm-btn-export-config img,
+   #lm-btn-import-config img,
+   #lm-btn-import-menus img,
+   #lm-panel-save-menus-count img,
+   #lm-panel-save-custom-css img,
+   #lm-panel-enable-demo img{
+   display: none;
+   padding: 0 7px;
+}

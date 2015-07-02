@@ -1,0 +1,201 @@
+/**
+* ERA Framework
+*
+* An Awesome Wordpress Framework, created by codezag
+*
+* @author    Sabri Taieb ( codezag )
+* @copyright Copyright (c) Sabri Taieb
+* @link    http://vamospace.com
+* @since   Version 1.0.0
+* @package   era_framework
+*
+**/
+
+/**
+* INFO
+*
+* Helpers Style
+*
+* Table of Content:
+* 1) Options Container
+* 2) Header/Section
+* 3) Options
+*
+**/
+
+/* =Options
+-----------------------------------------------*/
+.era-op-wrap {
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   overflow: hidden;
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* Inputs/textarea/select ... */
+.era-op-select select,
+.era-op-input input,
+.era-op-textarea textarea,
+.era-op-upload input{
+   width: 100%;
+   height: 30px;
+   line-height: 30px;
+   font-size: 14px;
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.era-op-input input,
+.era-op-upload input {
+   border: 2px solid #d4d0ba;
+}
+.era-op-textarea textarea{
+   height: 50px;
+   border: 2px solid #d4d0ba;
+}
+
+/* Upload Option */
+.era-op-upload input{
+   vertical-align: top;
+   width: 70%;
+}
+.era-op-upload button{
+   vertical-align: top;
+   width: 28%;
+   height: 30px !important;
+   line-height: 30px !important;
+
+   margin: 0;
+   padding: 0;
+   margin-left: 1%;
+
+   text-align: center;
+   cursor: pointer;
+   border: none;
+   background-color: #128eb7;
+   color: #ffffff;
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* Background OPTION */
+.era-op-background .era-op{
+   padding: 0px !important;
+}
+.era-op-bg-type-color,
+.era-op-bg-type-image,
+.era-op-bg-type-gradient{
+   margin-top: 10px;
+   display: block !important;
+   width: 100% !important;
+   overflow: hidden;
+}
+.era-op-bg-type-image .era-op-select{
+   margin-top: 10px;
+   width: 32% !important;
+   margin-right: 0.5%;
+   margin-left: 0.5%;
+   float: left;
+}
+.era-op-bg-type-gradient .era-op-select {
+   margin-top: 10px;
+   width: 120px !important;
+   margin-right: 8px;
+   float: left;
+}
+.era-op-bg-type-gradient .era-op-colorpicker {
+   margin-top: 10px;
+   width: 70px !important;
+   float: left;
+}
+
+.era-op-bg-type-image.hidden,
+.era-op-bg-type-color.hidden,
+.era-op-bg-type-gradient.hidden{
+   display: none !important;
+}
+
+/* Boder/boxshadow/borderradius/font Options */
+.era-op-border,
+.era-op-boxshadow,
+.era-op-borderradius,
+.era-op-font{
+   overflow: hidden;
+}
+.era-op-border .era-op-input,
+.era-op-boxshadow .era-op-input,
+.era-op-borderradius .era-op-input,
+.era-op-font .era-op-select{
+   width: 80px;
+   margin-right: 3px;
+   float: left;
+}
+.era-op-border .era-op-colorpicker,
+.era-op-boxshadow .era-op-colorpicker,
+.era-op-font .era-op-colorpicker{
+   width: 80px;
+   float: left;
+}
+
+.hidden{
+   display: none;
+}
+
+
+
+/* =Boxes
+-----------------------------------------------*/
+.era-shadow{
+   z-index: 19999;
+
+   position: fixed;
+   top: 0px;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+
+   background: rgba(0,0,0,0.7);
+}
+
+.era-box{
+   position: fixed;
+   z-index: 20000;
+   overflow: hidden;
+   border:1px solid #ccc;
+   background: white;
+
+   box-shadow: 0 0 5px 2px rgba(200,200,200,0.3);
+}
+.era-box-full{
+   left: 10%;
+   right:10%;
+   top: 40px;
+   bottom: 28px;
+}
+   .era-box-header {
+      height: auto;
+      margin: 0px;
+
+      border-bottom:1px solid #ccc;
+      color: #444444;
+      background: #f8f8f8;
+   }
+      .era-box-header > h3{
+         display: inline-block;
+         margin: 0;
+         padding: 20px 15px;
+         font-size: 17px;
+         line-height: 1em;
+      }
+
+   .era-box-content {
+      overflow: auto;
+      margin: 0;
+   }

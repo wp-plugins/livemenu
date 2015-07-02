@@ -1,0 +1,38 @@
+/**
+ * RTL : Customizer Style
+ * @since 1.0
+
+ * Table of Content :
+ * 1 General
+ * 2 Box
+ *	
+**/
+
+
+/** 1 General
+----------------------------------*/
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.lm-open-item-box{
+	float: right !important;
+}
+
+
+/** 2 Box
+----------------------------------*/
+.era-box-header .lm-btn{
+	float: left !important;
+}
+
+.lm-item-box-nav,
+.lm-btn-open-icons-box,
+.lm-btn-remove-icon,
+.era-box-content .era-op,
+.era-box-content .era-op-wrap,
+.era-box-content .sp-replacer,
+.era-box-content .era-op-wrap label{
+	float: right !important;
+}

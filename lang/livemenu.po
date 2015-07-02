@@ -1,0 +1,1244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: livemenu\n"
+"POT-Creation-Date: 2015-06-03 22:58+0100\n"
+"PO-Revision-Date: 2015-06-03 22:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: vamospace <codezag@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class-walker-customizer.php:255
+#: ../inc/class-walker-customizer.php:478 ../inc/class-walker-admin.php:250
+msgid "Remove"
+msgstr ""
+
+#: ../inc/class-walker-customizer.php:258 ../inc/config/menu-item-style.php:27
+msgid "Item Style"
+msgstr ""
+
+#: ../inc/class-walker-customizer.php:264 ../inc/class-walker-frontend.php:252
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/class-walker-customizer.php:264 ../inc/class-walker-frontend.php:252
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-walker-customizer.php:472
+msgid "Add Sub Item"
+msgstr ""
+
+#: ../inc/class-walker-customizer.php:475
+msgid "Edit"
+msgstr ""
+
+#: ../inc/class-walker-customizer.php:481 ../inc/class-livemenu.php:613
+#: ../inc/class-customizer.php:749 ../inc/class-customizer.php:859
+msgid "Style"
+msgstr ""
+
+#: ../inc/func-livemenu.php:9
+msgid "Please add a menu ID ex : <?php livemenu(1); ?>"
+msgstr ""
+
+#: ../inc/class-fonts.php:55
+msgid "Normal"
+msgstr ""
+
+#: ../inc/class-fonts.php:56
+msgid "Italic"
+msgstr ""
+
+#: ../inc/class-fonts.php:57
+msgid "Bold"
+msgstr ""
+
+#: ../inc/class-fonts.php:58
+msgid "Bold / Italic"
+msgstr ""
+
+#: ../inc/class-livemenu.php:90
+msgid "Livemeu Panel"
+msgstr ""
+
+#: ../inc/class-livemenu.php:91
+msgid "Livemenu"
+msgstr ""
+
+#: ../inc/class-livemenu.php:100
+msgid "Livemenu Panel"
+msgstr ""
+
+#: ../inc/class-livemenu.php:194 ../inc/class-ajax.php:246
+#: ../inc/class-ajax.php:297
+msgid "Enable Livemenu"
+msgstr ""
+
+#: ../inc/class-livemenu.php:195 ../inc/class-ajax.php:240
+#: ../inc/class-ajax.php:396
+msgid "Disable Livemenu"
+msgstr ""
+
+#: ../inc/class-livemenu.php:196
+msgid ""
+"Please select the theme location and save the menu before enabling livemenu"
+msgstr ""
+
+#: ../inc/class-livemenu.php:201 ../inc/class-livemenu.php:488
+msgid "Item Options Saved..."
+msgstr ""
+
+#: ../inc/class-livemenu.php:257 ../inc/config/menu-item-options.php:74
+msgid "Select Icon"
+msgstr ""
+
+#: ../inc/class-livemenu.php:261 ../inc/class-livemenu.php:290
+#: ../inc/class-customizer.php:92 ../inc/config/menu-item-options.php:12
+#: ../inc/config/menu-item-add.php:9
+msgid "Close"
+msgstr ""
+
+#: ../inc/class-livemenu.php:286
+msgid "WordPress Editor"
+msgstr ""
+
+#: ../inc/class-livemenu.php:294 ../inc/config/panel-pages.php:57
+msgid "Add"
+msgstr ""
+
+#: ../inc/class-livemenu.php:329
+msgid "Saving..."
+msgstr ""
+
+#: ../inc/class-livemenu.php:361
+msgid "Livemenu Live Builder"
+msgstr ""
+
+#: ../inc/class-livemenu.php:369
+msgid "Live Builder"
+msgstr ""
+
+#: ../inc/class-livemenu.php:379
+msgid "Disable Live Builder"
+msgstr ""
+
+#: ../inc/class-livemenu.php:389
+msgid "Structure Mode"
+msgstr ""
+
+#: ../inc/class-livemenu.php:398
+msgid "Documentation"
+msgstr ""
+
+#: ../inc/class-livemenu.php:607
+msgid "Add Item"
+msgstr ""
+
+#: ../inc/class-livemenu.php:610 ../inc/class-customizer.php:748
+#: ../inc/class-customizer.php:858
+msgid "Settings"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:88
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:92
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:127
+msgid "sub item"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:171
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:180 ../inc/config/menu-item-add.php:102
+msgid "URL"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:187
+msgid "Navigation Label"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:193
+msgid "Title Attribute"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:200
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:205
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:211
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:217
+msgid "Description"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:219
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../inc/class-walker-admin.php:225 ../inc/config/menu-item-options.php:9
+#: ../inc/config/menu-style.php:7 ../inc/config/menu-settings.php:7
+#: ../inc/config/menu-item-add.php:6 ../inc/config/menu-item-style.php:8
+msgid "Move"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:226
+msgid "Up one"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:227
+msgid "Down one"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:230
+msgid "To the top"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:237
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../inc/class-walker-admin.php:251 ../inc/config/menu-style.php:10
+#: ../inc/config/menu-settings.php:10 ../inc/config/menu-item-style.php:11
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/class-customizer.php:89
+msgid "Are you sure ?"
+msgstr ""
+
+#: ../inc/class-customizer.php:96
+msgid "Yes"
+msgstr ""
+
+#: ../inc/class-customizer.php:225 ../inc/class-customizer.php:314
+#: ../inc/class-customizer.php:540 ../inc/class-customizer.php:676
+#: ../inc/class-customizer.php:716 ../inc/class-customizer.php:787
+msgid "Not Allowed"
+msgstr ""
+
+#: ../inc/class-customizer.php:299 ../inc/class-customizer.php:333
+msgid "Done..."
+msgstr ""
+
+#: ../inc/class-customizer.php:750 ../inc/class-customizer.php:860
+msgid "Add Menu Item"
+msgstr ""
+
+#: ../inc/class-post_type-taxonomy-helper.php:50
+msgid "Post Type"
+msgstr ""
+
+#: ../inc/class-ajax.php:166
+msgid "Menus Imported"
+msgstr ""
+
+#: ../inc/class-ajax.php:196
+msgid "Config Imported!"
+msgstr ""
+
+#: ../inc/class-ajax.php:402
+msgid "Please make sure you create a menu and select a location first"
+msgstr ""
+
+#: ../inc/import/class-import.php:29 ../inc/config/menu-style.php:26
+msgid "Menu"
+msgstr ""
+
+#: ../inc/import/class-import.php:73
+#: ../inc/import/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../inc/import/class-import.php:80
+#: ../inc/import/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:134
+#: ../inc/import/wordpress-importer/wordpress-importer.php:143
+#: ../inc/import/wordpress-importer/wordpress-importer.php:194
+#: ../inc/import/wordpress-importer/wordpress-importer.php:198
+#: ../inc/import/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:511
+#: ../inc/import/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/parsers.php:42
+#: ../inc/import/wordpress-importer/parsers.php:72
+#: ../inc/import/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../inc/import/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../inc/import/wordpress-importer/parsers.php:84
+#: ../inc/import/wordpress-importer/parsers.php:89
+#: ../inc/import/wordpress-importer/parsers.php:279
+#: ../inc/import/wordpress-importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:450
+msgid "Upload"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:452 ../inc/helpers/class-options.php:514
+#: ../inc/helpers/class-options.php:537
+msgid "Add Images"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:453 ../inc/helpers/class-options.php:515
+msgid "Upload an Image"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:548
+msgid "Remove Images"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:620
+msgid "Simple Color"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:621
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:622
+msgid "Gradient"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:699
+msgid "Left to Right"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:700
+msgid "Right to Left"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:701
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../inc/helpers/class-options.php:702
+msgid "Bottom to Top"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:16 ../inc/config/menu-style.php:15
+#: ../inc/config/panel-pages.php:79 ../inc/config/panel-pages.php:99
+#: ../inc/config/menu-settings.php:15 ../inc/config/menu-item-style.php:19
+msgid "Save"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:24
+msgid "General"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:25
+#: ../inc/config/menu-item-options.php:134
+msgid "Type"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:26
+msgid "Column"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:27
+#: ../inc/config/menu-item-options.php:301
+msgid "Widgets"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:28
+#: ../inc/config/menu-item-options.php:302
+msgid "Shortcodes & HTML"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:47
+msgid "Position"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:48
+msgid "Set this link position"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:53
+#: ../inc/config/menu-item-options.php:204
+msgid "Left"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:57
+#: ../inc/config/menu-item-options.php:205
+msgid "Right"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:79
+msgid "Remove Icon"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:85
+msgid "Icon"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:86
+msgid "Add a nice icon to this link"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:98
+msgid "Disable Text"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:99
+msgid "Display only icon"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:109
+msgid "Use as Social Media"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:110
+msgid "This option help detect your social media links"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:135
+msgid "Set this menu item type"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:140
+msgid "Dropdowns"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:144
+msgid "Mega"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:148 ../inc/config/menu-style.php:31
+msgid "Posts"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:152
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:167
+msgid "Submenu Size"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:168
+msgid "Set this submenu Size"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:173
+msgid "Full Width"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:174
+msgid "Custom Width"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:189
+msgid "Submenu Custom Width"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:190
+msgid "Set this submenu width "
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:199
+msgid "Submenu Position"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:200
+msgid "Set this submenu position ( \"center\" will not work for dropdowns )"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:206
+msgid "Center"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:220
+msgid "How many posts to display ?"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:260
+msgid "Select Post Types or Categories"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:261
+msgid "Select multiple, by clicking on ctrl"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:295
+msgid "Column Type"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:296
+msgid "Set this column type"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:303
+msgid "Links"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:314
+msgid "Column Size"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:315
+msgid "Set this column size"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:319
+msgid "20%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:320
+msgid "25%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:321
+msgid "33%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:322
+msgid "50%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:323
+msgid "66%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:324
+msgid "75%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:325
+msgid "80%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:326
+msgid "100%"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:345
+msgid "Select Widget"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:350
+msgid "Recent Posts"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:351
+msgid "Recent Pages"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:352
+msgid "Recent Comments"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:353
+msgid "Categories"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:354
+msgid "Tag Cloud"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:355
+msgid "Search"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:369
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:414
+msgid "Number of pages to show"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:459
+msgid "Number of comments to show"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:504
+msgid "Number of categories to show"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:549
+msgid "Search Text"
+msgstr ""
+
+#: ../inc/config/menu-item-options.php:570
+msgid "Open WP Editor"
+msgstr ""
+
+#: ../inc/config/panel-nav-items.php:9
+msgid "Import / Export"
+msgstr ""
+
+#: ../inc/config/panel-nav-items.php:10
+msgid "Add Menus"
+msgstr ""
+
+#: ../inc/config/panel-nav-items.php:11 ../inc/config/panel-pages.php:69
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/config/panel-nav-items.php:12
+msgid "Developers"
+msgstr ""
+
+#: ../inc/config/menu-style.php:25 ../inc/config/menu-style.php:50
+msgid "Skin or Custom"
+msgstr ""
+
+#: ../inc/config/menu-style.php:27
+msgid "Top Links"
+msgstr ""
+
+#: ../inc/config/menu-style.php:28
+msgid "Current Link"
+msgstr ""
+
+#: ../inc/config/menu-style.php:29
+msgid "Submenu"
+msgstr ""
+
+#: ../inc/config/menu-style.php:30
+msgid "Sub Links"
+msgstr ""
+
+#: ../inc/config/menu-style.php:32
+msgid "Search Widget"
+msgstr ""
+
+#: ../inc/config/menu-style.php:33
+msgid "General Text"
+msgstr ""
+
+#: ../inc/config/menu-style.php:34 ../inc/config/menu-settings.php:25
+msgid "Responsive"
+msgstr ""
+
+#: ../inc/config/menu-style.php:51
+msgid "Select skin or create your own style"
+msgstr ""
+
+#: ../inc/config/menu-style.php:54
+msgid "Skin"
+msgstr ""
+
+#: ../inc/config/menu-style.php:55
+msgid "Custom Style"
+msgstr ""
+
+#: ../inc/config/menu-style.php:66
+msgid "Select Skin"
+msgstr ""
+
+#: ../inc/config/menu-style.php:67
+msgid "Select the skin you want to use on this menu"
+msgstr ""
+
+#: ../inc/config/menu-style.php:71
+msgid "Preview"
+msgstr ""
+
+#: ../inc/config/menu-style.php:89
+msgid "Layout"
+msgstr ""
+
+#: ../inc/config/menu-style.php:90
+msgid "Select from boxed or wide layout"
+msgstr ""
+
+#: ../inc/config/menu-style.php:92
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/config/menu-style.php:93
+msgid "Wide"
+msgstr ""
+
+#: ../inc/config/menu-style.php:119
+msgid "Width & Height"
+msgstr ""
+
+#: ../inc/config/menu-style.php:131 ../inc/config/menu-style.php:532
+#: ../inc/config/menu-item-style.php:93
+msgid "Background"
+msgstr ""
+
+#: ../inc/config/menu-style.php:132 ../inc/config/menu-style.php:533
+#: ../inc/config/menu-item-style.php:94
+msgid "Select between simple color, background image or gradient"
+msgstr ""
+
+#: ../inc/config/menu-style.php:158 ../inc/config/menu-style.php:556
+#: ../inc/config/menu-item-style.php:113
+msgid "Border"
+msgstr ""
+
+#: ../inc/config/menu-style.php:159
+msgid "Add a border to your menu ?"
+msgstr ""
+
+#: ../inc/config/menu-style.php:174 ../inc/config/menu-style.php:572
+#: ../inc/config/menu-item-style.php:129
+msgid "Box Shadow"
+msgstr ""
+
+#: ../inc/config/menu-style.php:175
+msgid "Add box shadow to your menu ? ( Size, Blur, Color )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:188 ../inc/config/menu-style.php:586
+#: ../inc/config/menu-item-style.php:143
+msgid "Border Radius"
+msgstr ""
+
+#: ../inc/config/menu-style.php:189
+msgid ""
+"Add Border Radius to your menu ? ( Top Left, Top Right, Bottom Left, Bottom "
+"Right"
+msgstr ""
+
+#: ../inc/config/menu-style.php:203
+msgid "Menu Z-index"
+msgstr ""
+
+#: ../inc/config/menu-style.php:220 ../inc/config/menu-style.php:349
+msgid "Font"
+msgstr ""
+
+#: ../inc/config/menu-style.php:221 ../inc/config/menu-style.php:350
+#: ../inc/config/menu-style.php:802
+msgid "font family, size, style, color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:263 ../inc/config/menu-style.php:391
+msgid "Color & Background Color ( Hover )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:282
+msgid "Border Color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:295
+msgid "Padding ( Left & Right )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:309 ../inc/config/menu-style.php:434
+#: ../inc/config/menu-style.php:784
+msgid "Icon Size"
+msgstr ""
+
+#: ../inc/config/menu-style.php:334 ../inc/config/menu-style.php:459
+msgid "Icon Padding ( Icon & Arrow )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:408
+msgid "Border Color ( Dropdown Links & Mega Column Title )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:423 ../inc/config/menu-style.php:615
+#: ../inc/config/menu-style.php:876
+msgid "Padding"
+msgstr ""
+
+#: ../inc/config/menu-style.php:469
+msgid "Description Font"
+msgstr ""
+
+#: ../inc/config/menu-style.php:470
+msgid "change the font (family,size,style,color)"
+msgstr ""
+
+#: ../inc/config/menu-style.php:510
+msgid "Current Link Color & Background Color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:511
+msgid "Set the color/background color of current link ( active )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:557 ../inc/config/menu-item-style.php:114
+msgid "Add a border to the submenus ?"
+msgstr ""
+
+#: ../inc/config/menu-style.php:573 ../inc/config/menu-item-style.php:130
+msgid "Add box shadow to the submenu ? ( Size, Blur, Color )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:587 ../inc/config/menu-item-style.php:144
+msgid ""
+"Add Border Radius to the submenu ? ( Top Left, Top Right, Bottom Left, "
+"Bottom Right"
+msgstr ""
+
+#: ../inc/config/menu-style.php:616
+msgid "Add some padding to the submenu( Top & Bottom / Left & Right )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:640
+msgid "Categories Container Size"
+msgstr ""
+
+#: ../inc/config/menu-style.php:665
+msgid "Thumbnails Width & Height"
+msgstr ""
+
+#: ../inc/config/menu-style.php:678
+msgid "Post Link Font"
+msgstr ""
+
+#: ../inc/config/menu-style.php:679
+msgid "font family, size, style & color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:709
+msgid "Search Bar Height"
+msgstr ""
+
+#: ../inc/config/menu-style.php:731
+msgid "Input Background & Border color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:743
+msgid "Search Text Font"
+msgstr ""
+
+#: ../inc/config/menu-style.php:744
+msgid "change the search text font (family,size,style,color)"
+msgstr ""
+
+#: ../inc/config/menu-style.php:771
+msgid "Search Text Padding"
+msgstr ""
+
+#: ../inc/config/menu-style.php:772
+msgid "Set the search text padding ( left,right )"
+msgstr ""
+
+#: ../inc/config/menu-style.php:801
+msgid "General Text Font"
+msgstr ""
+
+#: ../inc/config/menu-style.php:839
+msgid "3Bars Icon Size & Color"
+msgstr ""
+
+#: ../inc/config/menu-style.php:851
+msgid "Main Links Height"
+msgstr ""
+
+#: ../inc/config/menu-style.php:852
+msgid "Set the main links height"
+msgstr ""
+
+#: ../inc/config/menu-style.php:877
+msgid "Add padding to your links"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:6
+msgid "To Export Menus, Please Follow Tutorial"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:10
+msgid "Export Settings & Style"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:16
+msgid "Import Settings & Style"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:22
+msgid "Import Menus"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:26
+msgid ""
+"Importing & Exporting take time to finish, please dont close the browser"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:34
+msgid "How many menus you want to add ?"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:61
+msgid "For more info, please check the documentation, section Integrration"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:89
+msgid "Enable Demo"
+msgstr ""
+
+#: ../inc/config/panel-pages.php:103
+msgid "Enable Demo for your clients, same as "
+msgstr ""
+
+#: ../inc/config/panel-pages.php:103
+msgid "My Demo Site"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:24
+msgid "Layout and Logo"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:26
+msgid "Sticky"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:27
+msgid "Jquery"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:42
+msgid "Select Logo Position on Desktops/Laptops"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:44
+msgid "No Logo"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:45
+msgid "Logo Left, Menu Right"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:46
+msgid "Logo Right, Menu Left"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:62
+msgid "Upload Logo"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:63
+msgid "upload a nice logo for your site"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:77
+msgid "Responsive On/Off"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:78
+msgid "Support mobile devices by enabling responsive"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:86
+msgid "Responsive Start At This Width ( Breakpoint )"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:87
+msgid "Set the width that you want responsive to start work"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:101
+msgid "Sticky On/Off"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:102
+msgid "make your menu scroll when you scroll down!"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:116
+msgid "Trigger Hover/Click"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:117
+msgid "hover trigger is the most used these days!"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:119
+msgid "Hover"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:120
+msgid "Click"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:129
+msgid "Animation"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:130
+msgid "select the animation"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:132
+msgid "None"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:133
+msgid "Fade"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:134
+msgid "Slide"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:135
+msgid "fadeSlideUp"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:136
+msgid "fadeSlideLeft"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:145
+msgid "Animation Time"
+msgstr ""
+
+#: ../inc/config/menu-settings.php:146
+msgid "set the animation time ( millseconds )"
+msgstr ""
+
+#: ../inc/config/menu-item-add.php:53
+msgid "Pages"
+msgstr ""
+
+#: ../inc/config/menu-item-add.php:75 ../inc/config/menu-item-add.php:115
+#: ../inc/config/menu-item-add.php:163
+msgid "Add to Menu"
+msgstr ""
+
+#: ../inc/config/menu-item-add.php:95
+msgid "Custom Link"
+msgstr ""
+
+#: ../inc/config/menu-item-add.php:110
+msgid "Link Text"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:15
+msgid "Reset"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:28
+msgid "Submenu Style"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:51
+msgid "Color / Background color"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:52
+msgid "Custom color and background color for this link"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:73
+msgid "Color / Background color ( Hover )"
+msgstr ""
+
+#: ../inc/config/menu-item-style.php:74
+msgid "Color and background color when hover over this link"
+msgstr ""

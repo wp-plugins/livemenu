@@ -1,0 +1,727 @@
+/**
+* Livemenu Front-End Base Style
+*
+* @author    Sabri Taieb ( codezag )
+* @copyright Copyright (c) Sabri Taieb
+* @link    http://vamospace.com
+* @since   Version 1.0.0
+*
+*/
+/***********************************
+*
+* Mixins
+*
+* Table of Content :
+*
+*     1 Box Sizing
+*     2 Transition
+*     3 Box Shadow
+*     4 Border Radius
+*
+*
+***********************************/
+/***********************************
+*
+* Base Style
+*
+* Table of Content :
+*
+* 0 Arrows
+* 1 Livemenu Wrapper
+* 2 Livemenu
+* 3 Sticky
+* 4 Logo
+* 5 General Items
+* 6 General Submenus
+*
+*
+***********************************/
+
+/* = Top Admin Bar
+----------------------------------*/
+#wp-admin-bar-lm-top-bar-link{
+   background-color: #b200a0 !important;
+}
+
+/* 0 Arrorws */
+.lm-arrow-down:after {
+  content: "\e621";
+  display: none; }
+
+.lm-arrow-left:after {
+  content: "\e622";
+  display: none; }
+
+.lm-arrow-right:after {
+  content: "\e623";
+  display: none; }
+
+.lm-arrow-up:after {
+  content: "\e62c";
+  display: none; }
+
+/* 1 Livemenu wrapper */
+.livemenu-wrap {
+  position: relative;
+  overflow: visible !important;
+  display: block;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: none;
+  border-style: solid;
+  background: none;
+  outline: none;
+  z-index: 99997;
+  /* lower than the wordpress top bar */
+  line-height: 1.2em; }
+
+/* 2 Livemenu */
+.livemenu {
+  position: relative;
+  overflow: visible !important;
+  display: none;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: right; }
+
+/* 3 Sticky */
+.livemenu-sticky {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  -webkit-transition: background-color 400ms ease-in-out 400ms;
+  -moz-transition: background-color 400ms ease-in-out 400ms;
+  -o-transition: background-color 400ms ease-in-out 400ms;
+  transition: background-color 400ms ease-in-out 400ms;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2); }
+
+/* 4 Logo */
+.lm-logo {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: inline-block;
+  vertical-align: top; }
+  .lm-logo img {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    border: 0; }
+
+.lm-logo-left {
+  float: left; }
+
+.lm-logo-right {
+  float: right; }
+
+/* 5 General Items */
+.lm-item,
+.lm-sub-item {
+  list-style: none !important;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  border: none; }
+  .lm-item > a,
+  .lm-sub-item > a {
+    outline: none;
+    display: block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+    text-decoration: none;
+    border: none;
+    overflow: hidden;
+    line-height: 1.3em;
+    -webkit-transition: background-color 300ms, color 300ms;
+    -moz-transition: background-color 300ms, color 300ms;
+    -o-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+    /* Icon + Arrow */ }
+    .lm-item > a .era-icon,
+    .lm-sub-item > a .era-icon {
+      display: block;
+      overflow: hidden;
+      vertical-align: top;
+      /* Title */ }
+      .lm-item > a .era-icon .lm-item-title,
+      .lm-sub-item > a .era-icon .lm-item-title {
+        float: left;
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: none;
+        /* Image for Widgets (Posts/Pages/Comments) */ }
+        .lm-item > a .era-icon .lm-item-title img,
+        .lm-sub-item > a .era-icon .lm-item-title img {
+          float: left;
+          display: inline-block;
+          border: none;
+          margin: 0 10px 0 0;
+          padding: 0; }
+        .lm-item > a .era-icon .lm-item-title .lm-item-desc,
+        .lm-sub-item > a .era-icon .lm-item-title .lm-item-desc {
+          display: block;
+          margin-top: 6px;
+          line-height: 1.3em; }
+    .lm-item > a .era-icon:after,
+    .lm-item > a .era-icon:before,
+    .lm-sub-item > a .era-icon:after,
+    .lm-sub-item > a .era-icon:before {
+      float: left; }
+    .lm-item > a .era-icon:before,
+    .lm-sub-item > a .era-icon:before {
+      display: inline-block; }
+    .lm-item > a .lm-responsive-links-arrow,
+    .lm-sub-item > a .lm-responsive-links-arrow {
+      display: none; }
+
+/** 5.0 Top Links Position **/
+.lm-item.lm-item-position-left {
+  float: left; }
+  .lm-item.lm-item-position-left > a {
+    border-right: 1px solid transparent; }
+
+.lm-item.lm-item-position-right {
+  float: none; }
+  .lm-item.lm-item-position-right > a {
+    border-left: 1px solid transparent; }
+
+/** 5.1 display arrow for item that has submenu **/
+.lm-has-submenu > a .era-icon:after {
+  display: inline-block; }
+
+/** 5.2 Hide Description for :  top items **/
+.lm-item > a .lm-item-desc {
+  display: none !important; }
+
+/** 5.3 Disabel Text **/
+.lm-item-disable-text .lm-item-title {
+  display: none !important; }
+
+.lm-col.lm-item-disable-text > a {
+  display: none; }
+
+/** 5.4 Social Media ( mini item ) **/
+.lm-item-socialmedia > a {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .lm-item-socialmedia > a .lm-item-title {
+    display: none !important; }
+
+/**** 6 General Submenus ****/
+.lm-sub {
+  position: absolute;
+  overflow: visible;
+  /* dont add !important, to prevent animation issues */
+  display: none;
+  float: none;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 transparent;
+  -moz-box-shadow: 0 0 transparent;
+  box-shadow: 0 0 transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+/** 6.1 Grid **/
+.lm-col {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Small Screens */
+@media only screen {
+  .lm-col-20,
+  .lm-col-25,
+  .lm-col-33,
+  .lm-col-50,
+  .lm-col-66,
+  .lm-col-75,
+  .lm-col-80,
+  .lm-col-100 {
+    width: 95.99%;
+    margin: 2% 2% 2% 2%; } }
+/* Phablet screens */
+@media only screen and (min-width: 35.063em) {
+  .lm-col {
+    margin: 0 1.5% 1.5% 1.5%; }
+
+  .lm-col-20,
+  .lm-col-25,
+  .lm-col-33 {
+    width: 30.33%; }
+
+  .lm-col-50 {
+    width: 46.99%; }
+
+  .lm-col-66,
+  .lm-col-75,
+  .lm-col-80 {
+    width: 62.99%; }
+
+  .lm-col-100 {
+    width: 96.99%; } }
+/* Medium screens */
+@media only screen and (min-width: 45.063em) {
+  .lm-col {
+    margin: 0 1.5% 1.5% 1.5%; }
+
+  .lm-col-20,
+  .lm-col-25 {
+    width: 21.99%; }
+
+  .lm-col-33 {
+    width: 30.33%; }
+
+  .lm-col-50 {
+    width: 46.99%; }
+
+  .lm-col-66 {
+    width: 62.99%; }
+
+  .lm-col-75,
+  .lm-col-80 {
+    width: 71.99%; }
+
+  .lm-col-100 {
+    width: 96.99%; } }
+/* Large screens */
+@media only screen and (min-width: 64.063em) {
+  .lm-col {
+    margin: 0 1% 1% 1%; }
+
+  .lm-col-20 {
+    width: 17.99%; }
+
+  .lm-col-25 {
+    width: 22.99%; }
+
+  .lm-col-33 {
+    width: 31.33%; }
+
+  .lm-col-50 {
+    width: 47.99%; }
+
+  .lm-col-66 {
+    width: 63.99%; }
+
+  .lm-col-75 {
+    width: 72.99%; }
+
+  .lm-col-80 {
+    width: 77.99%; }
+
+  .lm-col-100 {
+    width: 97.99%; } }
+/**** 7 Mega Type ****/
+/** 7.0 Column **/
+.lm-col {
+  overflow: hidden; }
+
+/** 7.1 Column title **/
+.lm-col > a {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .lm-col > a .lm-item-title {
+    font-weight: bold !important; }
+  .lm-col > a .era-icon:after {
+    display: none; }
+
+/** 7.8 Column Content **/
+.lm-col > .lm-column-content {
+  display: block;
+  float: none;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent !important; }
+
+/** 7.8 Main Links **/
+.lm-item-mega .lm-col .lm-sub-item {
+  display: block; }
+  .lm-item-mega .lm-col .lm-sub-item > a {
+    border: none !important; }
+
+.lm-col-widgets .lm-sub-item > a .lm-item-title {
+  display: block !important;
+  width: 100% !important; }
+
+/** 7. Tags Widget **/
+.lm-col-widgets-tags .lm-column-content a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 4px; }
+
+/** 7. Search Widget **/
+.lm-remove-arrow-from-search:after {
+  display: none !important; }
+
+.lm-remove-arrow-from-search:before {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.livemenu-searchform {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  width: auto;
+  height: auto;
+  display: block;
+  position: relative; }
+  .livemenu-searchform .livemenu-searchinput {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .livemenu-searchform .livemenu-searchsubmit {
+    width: auto !important;
+    height: auto;
+    display: inline-block !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background: transparent;
+    border: none;
+    padding: 0 8px;
+    margin: 0; }
+
+/**** 8 Dropdowns Type ****/
+.lm-item-dropdowns {
+  position: relative;
+  /* Sub */ }
+  .lm-item-dropdowns > .lm-sub {
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /* sub inside */
+    /* items inside */ }
+    .lm-item-dropdowns > .lm-sub .lm-sub {
+      top: 0px;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box; }
+    .lm-item-dropdowns > .lm-sub .lm-sub-item {
+      position: relative;
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      /* prevent adding margin when hover
+      some themes are using this method */ }
+      .lm-item-dropdowns > .lm-sub .lm-sub-item > a {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid transparent;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        .lm-item-dropdowns > .lm-sub .lm-sub-item > a .era-icon:after {
+          float: right; }
+      .lm-item-dropdowns > .lm-sub .lm-sub-item:hover,
+      .lm-item-dropdowns > .lm-sub .lm-sub-item a:hover {
+        margin: 0; }
+
+/** 8.0 Top Submenu Position ( horizontal ) **/
+.livemenu-horizontal .lm-item-dropdowns > .lm-sub-dropdown-position-left {
+  left: 0 !important;
+  right: auto !important; }
+
+.livemenu-horizontal .lm-item-dropdowns > .lm-sub-dropdown-position-right {
+  left: auto !important;
+  right: 0 !important; }
+
+/** 8.1 Remove Last Link Border **/
+.livemenu-horizontal .lm-item-dropdowns .lm-sub-item:last-of-type > a {
+  border: none !important; }
+
+/**** 9 Posts Type ****/
+.lm-item-posts {
+  position: static;
+  /* Sub */ }
+  .lm-item-posts > .lm-sub {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    /* Posts */ }
+    .lm-item-posts > .lm-sub > .lm-sub-item {
+      display: inline-block;
+      overflow: hidden !important; }
+      .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub {
+        display: block;
+        overflow: hidden !important;
+        margin: 0 !important;
+        position: static !important;
+        padding: 0;
+        border: none;
+        background: transparent !important;
+        -webkit-box-shadow: 0 0 transparent !important;
+        -moz-box-shadow: 0 0 transparent !important;
+        box-shadow: 0 0 transparent !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+        /* Post */ }
+        .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a {
+          height: auto !important;
+          line-height: 1em !important;
+          display: block !important;
+          float: left;
+          margin: 0 0 15px 15px;
+          padding: 0;
+          position: relative;
+          text-decoration: none; }
+          .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a:hover {
+            background: transparent !important; }
+            .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a:hover .lm-post-title {
+              text-decoration: underline; }
+          .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a .lm-post-title {
+            display: block;
+            width: 100%;
+            margin-top: 8px; }
+          .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a .lm-post-date,
+          .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a .lm-post-wooc-price {
+            position: absolute;
+            top: 10px;
+            right: 0;
+            padding: 3px 4px;
+            font-weight: normal;
+            font-style: normal;
+            font-family: Arial ,Verdana ,sans-serif !important;
+            font-size: 13px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #ffffff; }
+
+            .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub a .lm-post-wooc-price {
+              right:auto;
+              left: 0;
+            }
+
+/** 9.0 Categories ( horizontal ) **/
+.lm-posts-categories {
+  height: auto !important;
+  overflow: hidden !important;
+  display: inline-block;
+  padding: 0 !important;
+  position: static !important;
+  background: transparent;
+  border: none; }
+  .lm-posts-categories .lm-sub-item {
+    display: block; }
+    .lm-posts-categories .lm-sub-item > a {
+      display: block;
+      border-bottom: 1px solid transparent; }
+
+/** 9.1 Posts Container ( horizontal ) **/
+.livemenu-horizontal .lm-item-posts > .lm-sub > .lm-sub-item {
+  display: none; }
+  .livemenu-horizontal .lm-item-posts > .lm-sub > .lm-sub-item > a {
+    display: none !important; }
+  .livemenu-horizontal .lm-item-posts > .lm-sub > .lm-sub-item > .lm-sub {
+    display: block !important; }
+
+.livemenu-horizontal .lm-item-posts > .lm-sub > .lm-sub-item:first-of-type {
+  display: inline-block; }
+
+/* WPML */
+.livemenu-horizontal .lm-item-wpml img {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.livemenu-horizontal .lm-item-wpml > a .lm-item-title img,
+.livemenu-responsive .lm-item-wpml .lm-sub-item > a .lm-item-title img {
+  float: none !important; }
+
+.livemenu-responsive-controls {
+  display: none; }
+
+.livemenu-responsive {
+  border-left: none !important;
+  border-right: none !important;
+  height: auto !important;
+  position: relative; }
+  .livemenu-responsive .livemenu-responsive-controls {
+    display: block;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .livemenu-responsive .livemenu-responsive-controls .era-icon {
+      padding: 0 15px;
+      margin: 0;
+      float: right;
+      cursor: pointer; }
+  .livemenu-responsive .livemenu {
+    position: absolute !important;
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    height: auto;
+    display: none;
+    overflow: hidden;
+    border: none !important;
+    background: transparent;
+    /* Logo */ }
+    .livemenu-responsive .livemenu .lm-logo {
+      display: none !important; }
+
+/** 1.1 Main Links **/
+.livemenu-responsive .lm-item,
+.livemenu-responsive .lm-item-dropdowns .lm-sub-item,
+.livemenu-responsive .lm-item-posts .lm-sub-item {
+  position: static;
+  display: block;
+  overflow: hidden;
+  float: none !important;
+  width: 100% !important;
+  margin: 0;
+  border: none; }
+  .livemenu-responsive .lm-item > a,
+  .livemenu-responsive .lm-item-dropdowns .lm-sub-item > a,
+  .livemenu-responsive .lm-item-posts .lm-sub-item > a {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    width: 100%;
+    border: none;
+    border-top-width: 1px;
+    border-top-style: solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .livemenu-responsive .lm-item > a .lm-item-desc,
+    .livemenu-responsive .lm-item-dropdowns .lm-sub-item > a .lm-item-desc,
+    .livemenu-responsive .lm-item-posts .lm-sub-item > a .lm-item-desc {
+      display: none !important; }
+    .livemenu-responsive .lm-item > a .lm-responsive-links-arrow,
+    .livemenu-responsive .lm-item-dropdowns .lm-sub-item > a .lm-responsive-links-arrow,
+    .livemenu-responsive .lm-item-posts .lm-sub-item > a .lm-responsive-links-arrow {
+      display: inline-block !important;
+      padding: 0 10px;
+      margin: 0;
+      height: auto;
+      width: auto;
+      border: none;
+      text-align: center;
+      overflow: hidden;
+      float: right; }
+      .livemenu-responsive .lm-item > a .lm-responsive-links-arrow:after,
+      .livemenu-responsive .lm-item-dropdowns .lm-sub-item > a .lm-responsive-links-arrow:after,
+      .livemenu-responsive .lm-item-posts .lm-sub-item > a .lm-responsive-links-arrow:after {
+        padding: 0 !important; }
+    .livemenu-responsive .lm-item > a > .era-icon:after,
+    .livemenu-responsive .lm-item-dropdowns .lm-sub-item > a > .era-icon:after,
+    .livemenu-responsive .lm-item-posts .lm-sub-item > a > .era-icon:after {
+      display: none !important; }
+  .livemenu-responsive .lm-item > .lm-sub,
+  .livemenu-responsive .lm-item-dropdowns .lm-sub-item > .lm-sub,
+  .livemenu-responsive .lm-item-posts .lm-sub-item > .lm-sub {
+    margin: 0 !important;
+    width: 100% !important;
+    float: none !important;
+    position: static !important;
+    overflow: hidden !important;
+    border: none !important;
+    opacity: 1 !important; }
+
+/* 1.2 Dropdowns */
+.livemenu-responsive .lm-item-dropdowns .lm-sub-item > a {
+  border: none;
+  border-top-width: 1px;
+  border-top-style: solid; }
+
+/** 1.3 Posts **/
+.livemenu-responsive .lm-item-posts > .lm-sub {
+  padding: 0 !important;
+  /* Hide Categories */
+  /* Posts */ }
+  .livemenu-responsive .lm-item-posts > .lm-sub .lm-posts-categories {
+    display: none !important; }
+  .livemenu-responsive .lm-item-posts > .lm-sub > .lm-sub-item {
+    margin: 0 !important; }
+    .livemenu-responsive .lm-item-posts > .lm-sub > .lm-sub-item > a {
+      display: block !important;
+      border: none;
+      border-top-width: 1px;
+      border-top-style: solid; }
+      .livemenu-responsive .lm-item-posts > .lm-sub > .lm-sub-item > a .lm-responsive-links-arrow {
+        display: inline-block !important; }
+    .livemenu-responsive .lm-item-posts > .lm-sub > .lm-sub-item .lm-sub {
+      display: none; }
+
+/* Social Media */
+.livemenu-responsive .lm-item.lm-item-socialmedia {
+  display: none; }
+
+.livemenu-horizontal .lm-item-responsive-socialmedia {
+  display: none; }
+
+.livemenu-responsive .lm-item-responsive-socialmedia {
+  border: none;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: block; }
+  .livemenu-responsive .lm-item-responsive-socialmedia a {
+    width: auto !important;
+    display: inline-block !important;
+    border: none !important;
+    padding-right: 0; }
+    .livemenu-responsive .lm-item-responsive-socialmedia a .lm-item-title {
+      display: none !important; }
+    .livemenu-responsive .lm-item-responsive-socialmedia a .era-icon:before {
+      padding: 0 !important; }
+  .livemenu-responsive .lm-item-responsive-socialmedia:hover > a {
+    background: transparent; }
+
+/* Search Widget */
+.livemenu-responsive .livemenu-searchsubmit,
+.livemenu-responsive .livemenu-searchform {
+  display: block;
+  width: 100%; }
+
+/*# sourceMappingURL=frontend.css.map */

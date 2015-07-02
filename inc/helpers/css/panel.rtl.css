@@ -1,0 +1,17 @@
+
+
+/* 1 Header 
+------------------------*/
+.era-panel > header span{
+	float: right;
+}
+.era-panel > header button{
+	float: left;
+}
+
+
+/* 2 Nav
+------------------------*/
+.era-panel-nav{
+	float: right;
+}

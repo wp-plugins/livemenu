@@ -1,0 +1,42 @@
+/***********************************
+* 
+* Mixins
+*
+* Table of Content :
+*   
+*     1 Box Sizing
+*     2 Transition
+*     3 Box Shadow
+*     4 Border Radius
+*
+*
+***********************************/
+
+// Box Sizing 
+@mixin box-sizing( $val ){
+   -webkit-box-sizing: $val;
+   -moz-box-sizing: $val;
+   box-sizing: $val;	
+}
+
+// Transition 
+@mixin transition( $val ){
+   -webkit-transition: $val;
+   -moz-transition: $val;
+   -o-transition: $val;
+   transition: $val;	
+}
+
+// Box Shadow 
+@mixin box-shadow( $val ){
+   -webkit-box-shadow: $val;
+   -moz-box-shadow: $val;
+   box-shadow: $val;	
+}
+
+// Border Radius 
+@mixin border-radius( $val ){
+   -webkit-border-radius: $val;
+   -moz-border-radius: $val;
+   border-radius: $val;	
+}
