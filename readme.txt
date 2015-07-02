@@ -26,23 +26,25 @@ Set full width or custom width for each mega submenu & you can configure the wid
 
 **More Features**
 
-*Live Build ( Add, Edit, Remove, Re-order )
-*Live Style
-*Mega Content, Dropdowns
-*Social Media
-*Logo
-*Retina Support
-*RTL & WPML Ready
-*Sticky Menu
-*Import / Export
-*Unlimited Wordpress Mega Menus
+* Live Build ( Add, Edit, Remove, Re-order )
+* Live Style
+* Mega Content, Dropdowns
+* Social Media
+* Logo
+* Retina Support
+* RTL & WPML Ready
+* Sticky Menu
+* Import / Export
+* Unlimited Wordpress Mega Menus
 
 **Upgrade to Pro Version http://livemenuwp.com**
 
+* Awesome Animations
 * Get Life Time Support & Updates ( Support Only For Pro Clients )
-* Mega Posts Submenu [ check demo site ]
-* Shopping Cart [ check demo site ]
-* Shopping Widget, Display your Products! [ check demo site ]
+* Shopping Widget, Display your Products!
+* Mega Shopping Submenu
+* Mega Posts Submenu
+* Shopping Cart
 * Documentation : http://vamospace.com/docs/livemenu
 
 **Go Pro Now <strong>http://livemenuwp.com**
