@@ -55,7 +55,11 @@ https://www.youtube.com/watch?v=Isj5OrqGqY8&list=PLDhHzV29WQTn_6q9SmxU2hTgZ2uDjJ
 
 == Screenshots ==
 
-1.
+1. Live Build
+2. Live Style
+3. Mega Content
+4. Responsive
+5. More Features
 
 == Changelog ==
 
