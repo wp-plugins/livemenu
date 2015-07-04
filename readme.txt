@@ -1,4 +1,4 @@
-=== Livemenu ( Lite ) - Live Builder For Wordpress Menus  ===
+=== Livemenu - Live Builder For Wordpress Menus  ===
 Contributors: codezag
 Tags: live builder,live build,menus,dropdown,wordpress mega menu, wordpress menu, drag-and-drop, dropdown menu, icons, mega menu, megamenu, menu, menu icons, menu style, navigation, responsive, responsive menu, retina, visual composer, live composer
 Requires at least: 3.8
